@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/educen"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:contentDescription="@null"
+                android:padding="2sp"
+                android:src="@drawable/logo_edu_cen" />
+
+            <ImageView
+                android:id="@+id/edusuc"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:padding="2sp"
+                android:contentDescription="@null"
+                android:src="@drawable/logo_edu_suc"/>
+
+            <ImageView
+                android:id="@+id/forta"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:padding="2sp"
+                android:contentDescription="@null"
+                android:src="@drawable/logo_banco_fortaleza"/>
+
+            <ImageView
+                android:id="@+id/sol"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:padding="2sp"
+                android:contentDescription="@null"
+                android:src="@drawable/banco_sol_logo"/>
+
+            <ImageView
+                android:id="@+id/porres"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:padding="2sp"
+                android:contentDescription="@null"
+                android:src="@drawable/logo_san_martin_porres"/>
+
+            <ImageView
+                android:id="@+id/fassil"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:padding="2sp"
+                android:contentDescription="@null"
+                android:src="@drawable/logo_banco_fassil"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <fragment  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.app.emapyc.dir_lugapa.MapsActivity" />
+
+</LinearLayout>

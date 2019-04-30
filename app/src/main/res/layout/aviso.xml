@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/img_avi">
+        <TextView
+            android:id="@+id/fe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sample"
+            android:textColor="#9c9b9b"
+            android:textSize="15sp"
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:id="@+id/avis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingRight="40dp"
+            android:text="Sample"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/hora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Sample"
+            android:textColor="#9c9b9b"
+            android:textSize="15sp"
+            android:layout_alignRight="@id/avis"
+            android:layout_alignBottom="@id/avis"/>
+    </RelativeLayout>
+
+</LinearLayout>

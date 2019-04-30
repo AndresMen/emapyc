@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Emapyc</string>
+    <string name="codigo">CODIGO DE USUARIO</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="ce">CENTRO DE COBRANZA AUTORIZADO</string>
+
+    <string name="educedir">
+        "Direccion:\n"
+        "Calle Campero entre calle Martin Barroso Y Avenida San Martin"
+        </string>
+    <string name="edusudir">
+        "Direccion:\n"
+        "Calle Avaroa II entre calle Chañares(7) y calle Cebiles(8)"
+    </string>
+
+    <string name="fassildir">
+        "Direccion:\n"
+        "Avenida Santa Cruz entre calle Sucre y calle Crevaux"</string>
+
+    <string name="porresdir">
+        "Direccion:\n"
+        "Calle Crevaux esquina Avenida Santa Cruz"</string>
+
+    <string name="fortadir">
+        "Direccion:\n"
+        "Calle Campero entre calle Comercio y Avenida Santa Cruz"</string>
+
+    <string name="soldir">
+        "Direccion:\n"
+        "Calle San Pedro esquina calle Martin Barroso"</string>
+    <string name="mandatory">Escriba un codigo</string>
+
+    <string-array name="lista">
+        <item>Coop. Educadores Gran Chaco Oficina central</item>
+        <item>Coop. Educadores Gran Chaco Sucursal</item>
+        <item>Banco Fortaleza</item>
+        <item>Banco Sol</item>
+        <item>Coop. San Martin de Porres</item>
+        <item>Banco Fassil</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="env_me">Enviar</string>
+    <string name="men">Escriba su mensaje</string>
+    <string name="mosco">Mostrar contraseña</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="cabecera_tabla">
+        <item>###</item>
+        <item>Año</item>
+        <item>Mes</item>
+        <item>Total</item>
+    </string-array>
+    <string name="google_maps_key">AIzaSyBBy2obbQBWKzUAlyMB11xePCowm9b3WnE</string>
+    <string name="ini">
+        Bienvenido, esta es una aplicacion para poder informarse acerca de deudas, avisos, lugares donde poder pagar sus deudas, poder enviar mensajes a la empresa.
+    </string>
+    <string name="ini2">
+        Nombre:
+    </string>
+</resources>

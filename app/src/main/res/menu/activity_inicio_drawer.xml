@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/inicio"
+            android:icon="@drawable/ic_home_black"
+            android:title="Inicio"></item>
+        <item
+            android:id="@+id/deudas"
+            android:icon="@drawable/ic_monetization_on_black"
+            android:title="Deudas" ></item>
+
+        <item
+            android:id="@+id/mensajes"
+            android:icon="@drawable/ic_send_black"
+            android:title="Mensajes" ></item>
+        <item android:id="@+id/avisosusu"
+            android:icon="@drawable/ic_warning_black"
+            android:title="Avisos para el usuario"></item>
+        <item android:id="@+id/avisosglo"
+            android:icon="@drawable/ic_warning_black"
+            android:title="Avisos Globales"></item>
+        <item
+            android:id="@+id/luga"
+            android:icon="@drawable/ic_my_location_black"
+            android:title="Lugares de pago" ></item>
+
+    </group>
+    <item android:title="Configuracion">
+        <menu>
+            <item
+                android:id="@+id/cesa"
+                android:icon="@drawable/ic_person_outline_black"
+                android:title="Cerrar sesion" />
+            <item
+                android:id="@+id/salir"
+                android:icon="@drawable/ic_cancel_black"
+                android:title="Salir" />
+        </menu>
+    </item>
+
+</menu>
